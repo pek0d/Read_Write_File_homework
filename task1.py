@@ -1,4 +1,6 @@
 # Задача № 1
+
+
 def parse_recipes():
     """Возвращает словарь с рецептами
     берущихся из файла перечня recipes.txt"""
@@ -29,4 +31,5 @@ def parse_recipes():
     return cook_book
 
 
+# Вызов функции и вывод результата в stdout
 print(parse_recipes())
